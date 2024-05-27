@@ -6,6 +6,8 @@ const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./src/graphqlController');
 
 const app = express();
+
+//Configurar puerto en el Digital
 const port = 8081;
 
 app.use(cors({
@@ -13,6 +15,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
+
 
 // Middleware para manejar cuerpos de texto (XML)
 app.use(express.text({ type: 'application/xml' }));
