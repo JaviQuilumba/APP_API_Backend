@@ -6,10 +6,10 @@ const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./src/graphqlController');
 
 const app = express();
-const port = 3001;
+const port = 8081;
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'http://https://app-apis-ftend-c4a49.ondigitalocean.app'
 }));
 
 app.use(express.json());
