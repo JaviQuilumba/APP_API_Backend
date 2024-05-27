@@ -15,7 +15,7 @@ let movies = [
         title: 'The Matrix',
         director: 'Lana and Lilly Wachowski',
         year: 1999,
-        coverImage: 'https://static.wikia.nocookie.net/matrix/images/5/56/The_Matrix_digital_release_cover.jpg/revision/latest?cb=20210908111245'
+        coverImage: 'https://i.pinimg.com/564x/24/7d/25/247d25bbc57ca3c716c6e3200cc56d5c.jpg'
     },
     {
         id: 3,
