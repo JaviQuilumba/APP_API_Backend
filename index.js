@@ -9,7 +9,7 @@ const app = express();
 const port = 8081;
 
 app.use(cors({
-    origin: 'http://https://app-apis-ftend-c4a49.ondigitalocean.app'
+    origin: 'https://app-apis-ftend-c4a49.ondigitalocean.app'
 }));
 
 app.use(express.json());
